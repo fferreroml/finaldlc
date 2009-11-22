@@ -102,7 +102,7 @@ constraint="no empty" onChange="update(4)" />
 <toolbarbutton label="Report Abuse"/>
 <toolbarbutton label="Print"/>
 <separator orient="vertical" bar="true"/>
-Powered by
+Powered by Franco
 <toolbarbutton label="ZK Borderlayout"/>
 </toolbar>
 </south>
