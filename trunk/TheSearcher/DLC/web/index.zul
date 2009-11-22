@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+<borderlayout height="650px" >
+<north size="80px" border="0">
+<div>
+<image style="padding:0 10px;" src="http://atlas.cooltext.com/rendered/cooltext418808807.jpg"/>
+<label style="position:relative; top:-30px;padding-left: 50px; font-size:24px;color:#008BB6;font-weight:bold;"
+value="The Searcher"/>
+</div>
+</north>
+<!-- Sidebar -->
+<!--west width="150px" border="0" flex="true">
+<div>
+<panel width="100%" border="none" title="Navigation" >
+<panelchildren style="padding:5px;" >
+<vbox>
+<toolbarbutton label="Home"/>
+<toolbarbutton label="Sitemap"/>
+<toolbarbutton label="Statement of Direction"/>
+<toolbarbutton label="ZK Team"/>
+<toolbarbutton label="Releases"/>
+<toolbarbutton label="Calender"/>
+</vbox>
+</panelchildren>
+</panel>
+
+</div>
+</west-->
+<!--east width="150px" title="Quick Links" flex="true" margins="0,5,5,0" collapsible="true">
+
+</east-->
+<!-- Content -->
+<center border="none">
+<tablelayout columns="1">
+<tablechildren >
+<panel style="margin-top:45px;" border="none">
+<panelchildren>
+<grid fixedLayout="true" style="border:0px;">
+<rows>
+<row align="center">
+<hbox >
+<label value="Buscar: " width="15px" />
+<textbox width="400px" />
+</hbox>
+</row>
+</rows>
+</grid>
+</panelchildren>
+</panel>
+</tablechildren>
+
+<tablechildren >
+<panel title="Resultado de la Busqueda" width="400px" border="normal" style="margin-top:20px;" >
+<panelchildren>
+<grid fixedLayout="true" style="border:0px" >
+
+<columns>
+<column label="category" />
+<column label="value" />
+</columns>
+<rows >
+<row>
+<label id="c0" value="Europe" />
+<decimalbox id="v0" value="41.2"
+constraint="no empty" onChange="update(0)" />
+</row>
+<row>
+<label id="c1" value="Africa" />
+<decimalbox id="v1" value="5.2"
+constraint="no empty" onChange="update(1)" />
+</row>
+<row>
+<label id="c2" value="America" />
+<decimalbox id="v2" value="36.4"
+constraint="no empty" onChange="update(2)" />
+</row>
+<row>
+<label id="c3" value="Australia" />
+<decimalbox id="v3" value="18.2"
+constraint="no empty" onChange="update(3)" />
+</row>
+<row>
+<label id="c4" value="Asia" />
+<decimalbox id="v4" value="28.2"
+constraint="no empty" onChange="update(4)" />
+</row>
+</rows>
+</grid>
+</panelchildren>
+</panel>
+</tablechildren>
+
+</tablelayout>
+</center>
+<south size="40px" border="0">
+<toolbar mold="panel" align="center">
+<toolbarbutton label="Sign in"/>
+<toolbarbutton label="Home"/>
+<toolbarbutton label="Sitemap"/>
+<toolbarbutton label="Terms"/>
+<toolbarbutton label="Report Abuse"/>
+<toolbarbutton label="Print"/>
+<separator orient="vertical" bar="true"/>
+Powered by
+<toolbarbutton label="ZK Borderlayout"/>
+</toolbar>
+</south>
+</borderlayout>
+
+<!-- HOJA DE ESTILO-->
+<style>
+.red{
+overflow: hidden; zoom: 1; color: #CAE1FF; font: normal ${fontSizeM} ${fontFamilyT};
+padding: 5px 3px 4px 5px; border: 1px solid #B1CBD5; line-height: 15px;
+background:transparent repeat-x 0 -1px;
+font-weight:bold;
+}
+
+</style>
+</zk>
+
